@@ -10,6 +10,10 @@ class display
     }
     public function getPage()
     {
+<<<<<<< HEAD
+=======
+        global $tpl->page;
+>>>>>>> 797dc48765f268da6189a1f7380f816b98debcf6
         
     }
     
