@@ -11,9 +11,9 @@ require_once C . T . 'class.html.php';
 require_once C . 'class.core.php';
 
 $tpl = new mTemplate\display;
-$tpl->page = mTemplate\html;
-=======
-require_once C . 'class.core.php';
+$tpl->page = new mTemplate\html;
+$core = new MuffinCMS\core;
 
-$tpl = new mTemplate\display;
+
+session_start();
 ?>
