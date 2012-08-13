@@ -10,7 +10,6 @@ class display
     }
     public function getPage()
     {
-        global $tpl->page;
         
     }
     
